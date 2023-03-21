@@ -32,7 +32,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     position: relative;
-    background-color: #121212 !important;
+    background-color: #E7E7E7 !important;
     color: #fff !important;
     font-family: 'Centra', sans-serif !important;
 }
@@ -106,11 +106,11 @@ nav.navbar {
 
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: #121212;
+    background-color: #34323A;
 }
 
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 15%;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -271,17 +271,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
     margin-top: 0;
     padding: 260px 0 100px 0;
-    background-image: url('./assets/img/banner-bg.png');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #E7E7E7;
 }
 
 .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    background: linear-gradient(90.21deg, #E7D0D4 -5.91%, #4D464F 111.58%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 20px;
     margin-bottom: 16px;
@@ -328,6 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner img {
     animation: updown 3s linear infinite;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
 }
 
 @keyframes updown {
@@ -355,7 +353,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-bx {
-    background: #151515;
+    background: #4D464F;
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
